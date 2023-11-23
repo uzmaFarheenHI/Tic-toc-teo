@@ -13,7 +13,7 @@ useEffect(()=>{
  if(lightUp.length===9)
   {
     // let i=0;
-   let timeInterval= setInterval(()=>{
+   setInterval(()=>{
       lightUp.splice(0,1);// first se last se just pop and with splice se we can do
       setLightUp([...lightUp]);// pop is very importantly important jab kuch bhi nahi hpga 
     },200)
